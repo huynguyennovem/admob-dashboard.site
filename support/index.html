@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Admob Dashboard</title>
+  <meta name="description" content="Get help with Admob Dashboard: Google Sign-In, AdMob account access, and contact.">
+  <link rel="canonical" href="https://admob-dashboard.site/support/">
+  <link rel="alternate" type="text/markdown" href="https://admob-dashboard.site/support/index.md">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <meta name="theme-color" content="#07111C">
+  <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header is-scrolled" id="site-header">
+    <div class="container nav-row">
+      <a href="/" class="brand">
+        <img src="/assets/images/app-icon.png" alt="" width="36" height="36">
+        <span class="brand-text">Admob Dashboard</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"
+        aria-label="Open menu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav class="nav-links" id="primary-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="policy-page">
+    <div class="container policy-content">
+      <h1>Support</h1>
+      <p>Need help with Admob Dashboard? Start with the FAQ below, or email us.</p>
+
+      <div class="support-grid">
+        <div class="support-block">
+          <h3>Contact</h3>
+          <p>For product questions, privacy requests, or account issues.</p>
+          <a class="btn btn-primary" href="mailto:admob.dashboard.app@gmail.com">Email support</a>
+        </div>
+        <div class="support-block">
+          <h3>Store status</h3>
+          <p>Android and iOS builds are coming soon. Store badges on the homepage are placeholders until listing URLs are live.</p>
+          <a class="btn" href="/">Back to home</a>
+        </div>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>How do I connect my Google account?</h3>
+          <p>Open the app and tap Connect account. Sign in with the Google account that has access to your AdMob
+            publisher account. The app requests AdMob readonly access only.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What Google Cloud / AdMob setup do I need?</h3>
+          <p>You only need a Google account that can sign in to AdMob. Open AdMob with that account in a browser to
+            confirm access — no separate AdMob API enablement is required for normal use.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why don’t I see revenue after signing in?</h3>
+          <p>Confirm the signed-in Google account can open your AdMob account in a browser and that it has reporting
+            data for the selected date range. Then pull to refresh in the app.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What data does the app read?</h3>
+          <p>Reporting metrics such as estimated earnings, impressions, match rate, eCPM, apps, and ad units — via the
+            AdMob Reporting API. See the <a href="/privacy/">Privacy Policy</a> for details.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I disconnect?</h3>
+          <p>Yes. Use the disconnect / sign-out control in the app, and optionally revoke Admob Dashboard in your Google
+            Account permissions.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="border: 0; padding-top: 0;">
+      <p>&copy; <span id="year"></span> Admob Dashboard</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    (() => {
+      const header = document.getElementById('site-header');
+      const year = document.getElementById('year');
+      const toggle = document.querySelector('.nav-toggle');
+      if (year) year.textContent = String(new Date().getFullYear());
+      if (toggle && header) {
+        toggle.addEventListener('click', () => {
+          const open = !header.classList.contains('is-nav-open');
+          header.classList.toggle('is-nav-open', open);
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        });
+      }
+    })();
+  </script>
+</body>
+
+</html>

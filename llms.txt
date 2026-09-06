@@ -1,0 +1,31 @@
+# Admob Dashboard
+
+> Admob Dashboard is a personal mobile dashboard for live AdMob revenue. Connect Google, then view estimated earnings, ads activity, apps, and ad units on your phone without opening the AdMob console.
+
+This file is a curated overview for AI assistants and LLMs. Full expanded copy is in [llms-full.txt](https://admob-dashboard.site/llms-full.txt). Markdown page mirrors: [index.md](https://admob-dashboard.site/index.md), [privacy/index.md](https://admob-dashboard.site/privacy/index.md), [terms/index.md](https://admob-dashboard.site/terms/index.md), [support/index.md](https://admob-dashboard.site/support/index.md).
+
+## Facts
+
+- Website: https://admob-dashboard.site/
+- Platforms: Android, iOS (coming soon to stores)
+- Package / bundle intent: `com.app.admobdashboard`
+- Auth: Google Sign-In
+- API scope: `https://www.googleapis.com/auth/admob.readonly`
+- Support: admob.dashboard.app@gmail.com
+
+## Product
+
+- [Home](https://admob-dashboard.site/): Overview, screenshots placeholders, features, how it works, Coming soon store badges
+- [Features](https://admob-dashboard.site/#features): Earnings, ads activity, Your dashboard, per-app drill-down, Google Sign-In
+- [How it works](https://admob-dashboard.site/#how-it-works): Connect Google → Sync AdMob → Track daily
+- [Support](https://admob-dashboard.site/support/): FAQ and email contact
+
+## Legal
+
+- [Privacy Policy](https://admob-dashboard.site/privacy/): Sign-In, AdMob Reporting API, no third-party analytics assumed at launch
+- [Terms of Use](https://admob-dashboard.site/terms/): Personal use license, API disclaimer, Apple Standard EULA note
+
+## Download
+
+- Google Play: Coming soon
+- App Store: Coming soon

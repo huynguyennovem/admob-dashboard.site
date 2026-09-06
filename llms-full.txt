@@ -1,0 +1,89 @@
+# Admob Dashboard — full LLM context
+
+## What it is
+
+Admob Dashboard is a personal Flutter mobile app for AdMob publishers. After Google Sign-In with the AdMob readonly scope, it loads mediated revenue and performance metrics from the Google AdMob Reporting API and presents them in mobile dashboards.
+
+Marketing site: https://admob-dashboard.site/
+Status: Coming soon on Google Play and the App Store (Android and iOS).
+Support email: admob.dashboard.app@gmail.com
+
+## Value proposition
+
+Your AdMob revenue, live on your phone — estimated earnings, apps, and ad units at a glance, without opening the AdMob console.
+
+## Primary users
+
+Indie developers and small studios who publish apps with AdMob and want a fast personal view of revenue and performance.
+
+## Core features
+
+### Estimated earnings
+Shows today so far, yesterday, this month so far, and last month.
+
+### Ads activity performance
+Earnings, requests, impressions, match rate, eCPM, and show rate, with period comparisons (for example today / yesterday versus recent windows such as last week / 7D / 28D).
+
+### Your dashboard
+Hero revenue with period chips (Today, Yesterday, This/Last month, 7D/30D/90D, Custom), deltas for eCPM, impressions, CTR, match rate, and fill rate, plus a revenue trend chart and top ad units ranking.
+
+### App performance
+Ranked apps list with drill-down into an app. Per-app detail includes format performance (with exclude formats), revenue chart, top countries, and revenue by platform, including Lifetime and Custom ranges.
+
+### Account and UX
+Google Sign-In connect / disconnect, pull-to-refresh, light/dark theme toggle, drawer between Default dashboard and Your dashboard, responsive wide layout for chart + rankings.
+
+## Technical notes (product)
+
+- Client: Flutter (Android / iOS)
+- Auth: google_sign_in
+- Scope: https://www.googleapis.com/auth/admob.readonly
+- Data path: device → Google AdMob Reporting API → on-device UI
+- No separate Admob Dashboard multi-tenant backend for storing publisher metrics (as described on the Privacy Policy)
+
+## Website structure
+
+- `/` — Landing page (English)
+- `/privacy/` — Privacy Policy
+- `/terms/` — Terms of Use
+- `/support/` — Support + FAQ
+- `/llms.txt` — Curated LLM overview
+- `/llms-full.txt` — This file
+- `/index.md`, `/privacy/index.md`, `/terms/index.md`, `/support/index.md` — Markdown mirrors
+- `/robots.txt`, `/sitemap.xml`, `/app-ads.txt`, `CNAME`
+
+## Store CTAs
+
+Store badges are shown with a Coming soon label. Listing URLs are not live yet. Badge image assets live at:
+
+- /assets/images/GooglePlay_Badge.png
+- /assets/images/App_Store_Badge.png
+
+Screenshot placeholders (replace later):
+
+- /assets/images/screenshots/placeholder-1.svg
+- /assets/images/screenshots/placeholder-2.svg
+- /assets/images/screenshots/placeholder-3.svg
+- /assets/images/screenshots/placeholder-4.svg
+
+## Privacy summary
+
+- Google Sign-In for authentication
+- AdMob readonly reporting metrics fetched from Google
+- No file uploads
+- No third-party analytics / crash / ads SDKs assumed in the app at the time of the published Privacy Policy (aside from Google Sign-In and AdMob Reporting API for the user’s own metrics)
+- Static marketing site may produce standard host access logs
+
+## Terms summary
+
+- Personal / internal use license for your own AdMob accounts
+- Metrics accuracy depends on Google APIs and may differ from final payouts
+- Apple Standard EULA applies for App Store distribution
+- Coming soon availability disclaimer
+
+## FAQ summary
+
+1. Connect via in-app Connect account with a Google account that has AdMob access.
+2. You only need a Google account that can sign in to AdMob — no separate AdMob API enablement for normal use.
+3. If no revenue appears, verify the account can open AdMob in a browser and has data for the selected range; then refresh.
+4. Disconnect in-app and/or revoke Google Account permissions.

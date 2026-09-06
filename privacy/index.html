@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Admob Dashboard</title>
+  <meta name="description"
+    content="Privacy Policy for Admob Dashboard: how Google Sign-In and AdMob Reporting API data are handled.">
+  <link rel="canonical" href="https://admob-dashboard.site/privacy/">
+  <link rel="alternate" type="text/markdown" href="https://admob-dashboard.site/privacy/index.md">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <meta name="theme-color" content="#07111C">
+  <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header is-scrolled" id="site-header">
+    <div class="container nav-row">
+      <a href="/" class="brand">
+        <img src="/assets/images/app-icon.png" alt="" width="36" height="36">
+        <span class="brand-text">Admob Dashboard</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"
+        aria-label="Open menu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav class="nav-links" id="primary-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="policy-page">
+    <div class="container policy-content">
+      <h1>Privacy Policy</h1>
+      <p><strong>Last updated:</strong> September 6, 2026</p>
+
+      <p>Admob Dashboard (“the app”) is a personal mobile dashboard for viewing AdMob revenue metrics. This policy
+        explains what information is involved when you use the app and this website.</p>
+
+      <h2>1. Overview</h2>
+      <p>Admob Dashboard connects to your Google account so it can read AdMob reporting data. The app is designed as a
+        personal client: metrics are requested from Google’s AdMob API on your behalf and shown in the app UI.</p>
+
+      <h2>2. Google Sign-In</h2>
+      <p>To use the core features, you sign in with Google. Authentication is handled by Google Sign-In. We request the
+        AdMob readonly scope:</p>
+      <ul>
+        <li><code>https://www.googleapis.com/auth/admob.readonly</code></li>
+      </ul>
+      <p>This scope allows the app to read AdMob account and reporting information. It does not allow the app to change
+        your AdMob settings or publish ads.</p>
+      <p>You can disconnect your account from within the app. You can also revoke access at any time in your Google
+        Account permissions.</p>
+
+      <h2>3. AdMob reporting data</h2>
+      <p>After you connect, the app requests live reporting metrics from the Google AdMob Reporting API. Depending on
+        your AdMob account, this may include estimated earnings, requests, impressions, match rate, eCPM, show rate,
+        apps, ad units, countries, platforms, and related performance breakdowns for the date ranges you select.</p>
+      <p>This data originates from Google. The app displays it for your personal use. The app does not upload your
+        AdMob metrics to a separate Admob Dashboard backend for storage or resale.</p>
+
+      <h2>4. Data we do not collect</h2>
+      <ul>
+        <li>We do not ask you to upload files through the app.</li>
+        <li>We do not operate a multi-tenant cloud account system for this product.</li>
+        <li>As of the date above, the app does not integrate third-party analytics, crash reporting, or advertising SDKs
+          beyond Google Sign-In and the AdMob Reporting API used for your own revenue metrics.</li>
+      </ul>
+      <p>If analytics, crash reporting, or ads are added later, this policy will be updated before those features ship
+        in store builds.</p>
+
+      <h2>5. This website</h2>
+      <p>The marketing site at admob-dashboard.site provides product information, support pages, and legal documents. It
+        is a static site. Standard web server or host logs (such as IP address and user agent) may be processed by the
+        hosting provider as part of delivering the site.</p>
+
+      <h2>6. Children’s privacy</h2>
+      <p>Admob Dashboard is intended for adults who manage AdMob publishing accounts. It is not directed to children.</p>
+
+      <h2>7. Changes</h2>
+      <p>We may update this Privacy Policy from time to time. The “Last updated” date at the top of this page will
+        change when we do. Continued use of the app or site after an update means you accept the revised policy.</p>
+
+      <h2>8. Contact</h2>
+      <p>Questions about privacy: <a href="mailto:admob.dashboard.app@gmail.com">admob.dashboard.app@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="border: 0; padding-top: 0;">
+      <p>&copy; <span id="year"></span> Admob Dashboard</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/terms/">Terms</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    (() => {
+      const header = document.getElementById('site-header');
+      const year = document.getElementById('year');
+      const toggle = document.querySelector('.nav-toggle');
+      if (year) year.textContent = String(new Date().getFullYear());
+      if (toggle && header) {
+        toggle.addEventListener('click', () => {
+          const open = !header.classList.contains('is-nav-open');
+          header.classList.toggle('is-nav-open', open);
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        });
+      }
+    })();
+  </script>
+</body>
+
+</html>

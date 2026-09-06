@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Use — Admob Dashboard</title>
+  <meta name="description" content="Terms of Use for Admob Dashboard on Android and iOS.">
+  <link rel="canonical" href="https://admob-dashboard.site/terms/">
+  <link rel="alternate" type="text/markdown" href="https://admob-dashboard.site/terms/index.md">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <meta name="theme-color" content="#07111C">
+  <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <header class="site-header is-scrolled" id="site-header">
+    <div class="container nav-row">
+      <a href="/" class="brand">
+        <img src="/assets/images/app-icon.png" alt="" width="36" height="36">
+        <span class="brand-text">Admob Dashboard</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"
+        aria-label="Open menu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav class="nav-links" id="primary-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="policy-page">
+    <div class="container policy-content">
+      <h1>Terms of Use</h1>
+      <p><strong>Last updated:</strong> September 6, 2026</p>
+
+      <p>These Terms of Use (“Terms”) govern your use of Admob Dashboard (the “app”) and the website at
+        admob-dashboard.site (the “site”). By using the app or site, you agree to these Terms.</p>
+
+      <h2>1. The product</h2>
+      <p>Admob Dashboard is a personal mobile dashboard that helps AdMob publishers view estimated earnings and related
+        performance metrics by connecting a Google account with AdMob readonly access.</p>
+      <p>The app is coming soon to Google Play and the App Store. Availability, features, and platform support may
+        change as the product ships and updates.</p>
+
+      <h2>2. Eligibility and accounts</h2>
+      <p>You must have a Google account with access to an AdMob account to use the core reporting features. You are
+        responsible for maintaining the security of your Google account and for complying with Google’s and AdMob’s own
+        terms and policies.</p>
+
+      <h2>3. License</h2>
+      <p>Subject to these Terms, you are granted a limited, non-exclusive, non-transferable license to install and use
+        the app for your personal or internal business use related to your own AdMob accounts.</p>
+      <p>You may not reverse engineer, redistribute, or misuse the app except where applicable law prohibits those
+        restrictions.</p>
+
+      <h2>4. App Store distribution (Apple)</h2>
+      <p>If you download Admob Dashboard from the Apple App Store, your use is also governed by Apple’s Standard End User
+        License Agreement (EULA), unless a separate written agreement applies.</p>
+      <p>Apple Standard EULA:
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>
+      </p>
+
+      <h2>5. Third-party services</h2>
+      <p>The app relies on Google Sign-In and the Google AdMob Reporting API. Those services are subject to Google’s
+        terms and privacy policies. We are not responsible for outages, accuracy limits, quota restrictions, or changes
+        made by Google to those APIs.</p>
+      <p>Estimated earnings and other metrics shown in the app come from Google and may differ from final payments or
+        later revisions in the AdMob console.</p>
+
+      <h2>6. Acceptable use</h2>
+      <ul>
+        <li>Use the app only with accounts you are authorized to access.</li>
+        <li>Do not attempt to abuse API quotas, circumvent authentication, or interfere with the app or site.</li>
+        <li>Do not use the app for unlawful purposes.</li>
+      </ul>
+
+      <h2>7. Disclaimer</h2>
+      <p>The app and site are provided “as is” and “as available,” without warranties of any kind, express or implied,
+        including merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that
+        metrics will be uninterrupted, complete, or error-free.</p>
+
+      <h2>8. Limitation of liability</h2>
+      <p>To the maximum extent permitted by law, Admob Dashboard and its operators will not be liable for any indirect,
+        incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or goodwill,
+        arising from your use of the app or site.</p>
+
+      <h2>9. Changes</h2>
+      <p>We may update these Terms from time to time. The “Last updated” date will change when we do. Continued use after
+        an update constitutes acceptance of the revised Terms.</p>
+
+      <h2>10. Contact</h2>
+      <p>Questions about these Terms: <a href="mailto:admob.dashboard.app@gmail.com">admob.dashboard.app@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="border: 0; padding-top: 0;">
+      <p>&copy; <span id="year"></span> Admob Dashboard</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    (() => {
+      const header = document.getElementById('site-header');
+      const year = document.getElementById('year');
+      const toggle = document.querySelector('.nav-toggle');
+      if (year) year.textContent = String(new Date().getFullYear());
+      if (toggle && header) {
+        toggle.addEventListener('click', () => {
+          const open = !header.classList.contains('is-nav-open');
+          header.classList.toggle('is-nav-open', open);
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        });
+      }
+    })();
+  </script>
+</body>
+
+</html>

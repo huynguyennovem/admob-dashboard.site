@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="Screenshot 3 placeholder">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111C"/>
+      <stop offset="100%" stop-color="#0C1624"/>
+    </linearGradient>
+  </defs>
+  <rect width="390" height="844" rx="40" fill="url(#bg3)"/>
+  <rect x="14" y="14" width="362" height="816" rx="32" fill="none" stroke="#67E8D2" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="42" y="90" width="306" height="664" rx="22" fill="#0A1522" stroke="#1C3044" stroke-width="1"/>
+  <text x="195" y="400" text-anchor="middle" fill="#67E8D2" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700">Screenshot 3</text>
+  <text x="195" y="436" text-anchor="middle" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="15">Replace with app capture</text>
+</svg>
