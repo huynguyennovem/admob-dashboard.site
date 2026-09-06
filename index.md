@@ -1,8 +1,8 @@
-# Admob Dashboard
+# AdGauge - AdMob Dashboard
 
-> Admob Dashboard is a personal mobile app that connects your Google account and shows live AdMob estimated earnings, ads performance, apps, and ad units — without opening the AdMob console.
+> AdGauge - AdMob Dashboard is a personal mobile app that connects your Google account and shows live AdMob estimated earnings, ads performance, apps, and ad units — without opening the AdMob console.
 
-This is the marketing site for Admob Dashboard at [https://admob-dashboard.site/](https://admob-dashboard.site/).
+This is the marketing site for AdGauge - AdMob Dashboard at [https://admob-dashboard.site/](https://admob-dashboard.site/).
 
 **Status:** Coming soon on Google Play and the App Store.
 

@@ -1,6 +1,6 @@
-# Admob Dashboard
+# AdGauge - AdMob Dashboard
 
-> Admob Dashboard is a personal mobile dashboard for live AdMob revenue. Connect Google, then view estimated earnings, ads activity, apps, and ad units on your phone without opening the AdMob console.
+> AdGauge - AdMob Dashboard is a personal mobile dashboard for live AdMob revenue. Connect Google, then view estimated earnings, ads activity, apps, and ad units on your phone without opening the AdMob console.
 
 This file is a curated overview for AI assistants and LLMs. Full expanded copy is in [llms-full.txt](https://admob-dashboard.site/llms-full.txt). Markdown page mirrors: [index.md](https://admob-dashboard.site/index.md), [privacy/index.md](https://admob-dashboard.site/privacy/index.md), [terms/index.md](https://admob-dashboard.site/terms/index.md), [support/index.md](https://admob-dashboard.site/support/index.md).
 

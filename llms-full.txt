@@ -1,8 +1,8 @@
-# Admob Dashboard — full LLM context
+# AdGauge - AdMob Dashboard — full LLM context
 
 ## What it is
 
-Admob Dashboard is a personal Flutter mobile app for AdMob publishers. After Google Sign-In with the AdMob readonly scope, it loads mediated revenue and performance metrics from the Google AdMob Reporting API and presents them in mobile dashboards.
+AdGauge - AdMob Dashboard is a personal Flutter mobile app for AdMob publishers. After Google Sign-In with the AdMob readonly scope, it loads mediated revenue and performance metrics from the Google AdMob Reporting API and presents them in mobile dashboards.
 
 Marketing site: https://admob-dashboard.site/
 Status: Coming soon on Google Play and the App Store (Android and iOS).
@@ -39,7 +39,7 @@ Google Sign-In connect / disconnect, pull-to-refresh, light/dark theme toggle, d
 - Auth: google_sign_in
 - Scope: https://www.googleapis.com/auth/admob.readonly
 - Data path: device → Google AdMob Reporting API → on-device UI
-- No separate Admob Dashboard multi-tenant backend for storing publisher metrics (as described on the Privacy Policy)
+- No separate AdGauge - AdMob Dashboard multi-tenant backend for storing publisher metrics (as described on the Privacy Policy)
 
 ## Website structure
 

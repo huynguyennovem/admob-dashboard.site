@@ -1,12 +1,12 @@
-# Terms of Use — Admob Dashboard
+# Terms of Use — AdGauge - AdMob Dashboard
 
 **Last updated:** September 6, 2026
 
-These Terms of Use (“Terms”) govern your use of Admob Dashboard (the “app”) and the website at admob-dashboard.site (the “site”). By using the app or site, you agree to these Terms.
+These Terms of Use (“Terms”) govern your use of AdGauge - AdMob Dashboard (the “app”) and the website at admob-dashboard.site (the “site”). By using the app or site, you agree to these Terms.
 
 ## 1. The product
 
-Admob Dashboard is a personal mobile dashboard that helps AdMob publishers view estimated earnings and related performance metrics by connecting a Google account with AdMob readonly access.
+AdGauge - AdMob Dashboard is a personal mobile dashboard that helps AdMob publishers view estimated earnings and related performance metrics by connecting a Google account with AdMob readonly access.
 
 The app is coming soon to Google Play and the App Store. Availability, features, and platform support may change as the product ships and updates.
 
@@ -22,7 +22,7 @@ You may not reverse engineer, redistribute, or misuse the app except where appli
 
 ## 4. App Store distribution (Apple)
 
-If you download Admob Dashboard from the Apple App Store, your use is also governed by Apple’s Standard End User License Agreement (EULA), unless a separate written agreement applies.
+If you download AdGauge - AdMob Dashboard from the Apple App Store, your use is also governed by Apple’s Standard End User License Agreement (EULA), unless a separate written agreement applies.
 
 Apple Standard EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
@@ -44,7 +44,7 @@ The app and site are provided “as is” and “as available,” without warran
 
 ## 8. Limitation of liability
 
-To the maximum extent permitted by law, Admob Dashboard and its operators will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or goodwill, arising from your use of the app or site.
+To the maximum extent permitted by law, AdGauge - AdMob Dashboard and its operators will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or goodwill, arising from your use of the app or site.
 
 ## 9. Changes
 

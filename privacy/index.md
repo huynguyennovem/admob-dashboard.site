@@ -1,12 +1,12 @@
-# Privacy Policy — Admob Dashboard
+# Privacy Policy — AdGauge - AdMob Dashboard
 
 **Last updated:** September 6, 2026
 
-Admob Dashboard (“the app”) is a personal mobile dashboard for viewing AdMob revenue metrics. This policy explains what information is involved when you use the app and this website.
+AdGauge - AdMob Dashboard (“the app”) is a personal mobile dashboard for viewing AdMob revenue metrics. This policy explains what information is involved when you use the app and this website.
 
 ## 1. Overview
 
-Admob Dashboard connects to your Google account so it can read AdMob reporting data. The app is designed as a personal client: metrics are requested from Google’s AdMob API on your behalf and shown in the app UI.
+AdGauge - AdMob Dashboard connects to your Google account so it can read AdMob reporting data. The app is designed as a personal client: metrics are requested from Google’s AdMob API on your behalf and shown in the app UI.
 
 ## 2. Google Sign-In
 
@@ -22,7 +22,7 @@ You can disconnect your account from within the app. You can also revoke access 
 
 After you connect, the app requests live reporting metrics from the Google AdMob Reporting API. Depending on your AdMob account, this may include estimated earnings, requests, impressions, match rate, eCPM, show rate, apps, ad units, countries, platforms, and related performance breakdowns for the date ranges you select.
 
-This data originates from Google. The app displays it for your personal use. The app does not upload your AdMob metrics to a separate Admob Dashboard backend for storage or resale.
+This data originates from Google. The app displays it for your personal use. The app does not upload your AdMob metrics to a separate AdGauge - AdMob Dashboard backend for storage or resale.
 
 ## 4. Data we do not collect
 
@@ -38,7 +38,7 @@ The marketing site at admob-dashboard.site provides product information, support
 
 ## 6. Children’s privacy
 
-Admob Dashboard is intended for adults who manage AdMob publishing accounts. It is not directed to children.
+AdGauge - AdMob Dashboard is intended for adults who manage AdMob publishing accounts. It is not directed to children.
 
 ## 7. Changes
 

@@ -1,6 +1,6 @@
-# Support — Admob Dashboard
+# Support — AdGauge - AdMob Dashboard
 
-Need help with Admob Dashboard? Start with the FAQ below, or email admob.dashboard.app@gmail.com.
+Need help with AdGauge - AdMob Dashboard? Start with the FAQ below, or email admob.dashboard.app@gmail.com.
 
 ## Contact
 
@@ -31,4 +31,4 @@ Reporting metrics such as estimated earnings, impressions, match rate, eCPM, app
 
 ### Can I disconnect?
 
-Yes. Use the disconnect / sign-out control in the app, and optionally revoke Admob Dashboard in your Google Account permissions.
+Yes. Use the disconnect / sign-out control in the app, and optionally revoke AdGauge - AdMob Dashboard in your Google Account permissions.
