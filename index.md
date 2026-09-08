@@ -4,22 +4,23 @@
 
 This is the marketing site for AdGauge - AdMob Dashboard at [https://admob-dashboard.site/](https://admob-dashboard.site/).
 
-**Status:** Coming soon on Google Play and the App Store.
+**Status:** Available on [Google Play](https://play.google.com/store/apps/details?id=com.adgauge.admobdashboard) and the [App Store](https://apps.apple.com/app/id6809818957).
 
 ## Product summary
 
 - Platforms: Android and iOS
+- Package: `com.adgauge.admobdashboard`
 - Auth: Google Sign-In with AdMob readonly scope (`admob.readonly`)
 - Data: Live metrics from the Google AdMob Reporting API
 - Audience: Indie and small-studio AdMob publishers
 
 ## On this site
 
-- [Home](https://admob-dashboard.site/) — Product overview, features, how it works, store badges (coming soon)
+- [Home](https://admob-dashboard.site/) — Product overview, features, how it works, store badges
 - [Home (markdown)](https://admob-dashboard.site/index.md) — This page
 - [Features](https://admob-dashboard.site/#features) — Earnings, ads activity, Your dashboard, per-app drill-down
 - [How it works](https://admob-dashboard.site/#how-it-works) — Connect → Sync → Track
-- [Screenshots](https://admob-dashboard.site/#screenshots) — Four placeholder slots for app captures
+- [Screenshots](https://admob-dashboard.site/#screenshots) — Earnings, activity, Your dashboard, and per-app detail
 - [Support](https://admob-dashboard.site/support/) — FAQ and contact
 - [Privacy Policy](https://admob-dashboard.site/privacy/) — Google Sign-In and AdMob API data handling
 - [Terms of Use](https://admob-dashboard.site/terms/) — License, disclaimers, Apple Standard EULA note

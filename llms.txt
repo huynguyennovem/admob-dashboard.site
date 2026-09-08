@@ -7,15 +7,15 @@ This file is a curated overview for AI assistants and LLMs. Full expanded copy i
 ## Facts
 
 - Website: https://admob-dashboard.site/
-- Platforms: Android, iOS (coming soon to stores)
-- Package / bundle intent: `com.app.admobdashboard`
+- Platforms: Android, iOS
+- Package / bundle intent: `com.adgauge.admobdashboard`
 - Auth: Google Sign-In
 - API scope: `https://www.googleapis.com/auth/admob.readonly`
 - Support: admob.dashboard.app@gmail.com
 
 ## Product
 
-- [Home](https://admob-dashboard.site/): Overview, screenshots placeholders, features, how it works, Coming soon store badges
+- [Home](https://admob-dashboard.site/): Overview, screenshots, features, how it works, store badges
 - [Features](https://admob-dashboard.site/#features): Earnings, ads activity, Your dashboard, per-app drill-down, Google Sign-In
 - [How it works](https://admob-dashboard.site/#how-it-works): Connect Google → Sync AdMob → Track daily
 - [Support](https://admob-dashboard.site/support/): FAQ and email contact
@@ -27,5 +27,5 @@ This file is a curated overview for AI assistants and LLMs. Full expanded copy i
 
 ## Download
 
-- Google Play: Coming soon
-- App Store: Coming soon
+- Google Play: https://play.google.com/store/apps/details?id=com.adgauge.admobdashboard
+- App Store: https://apps.apple.com/app/id6809818957

@@ -7,9 +7,10 @@ Need help with AdGauge - AdMob Dashboard? Start with the FAQ below, or email adm
 - Email: admob.dashboard.app@gmail.com
 - Home: https://admob-dashboard.site/
 
-## Store status
+## Download
 
-Android and iOS builds are coming soon. Store badges on the homepage are placeholders until listing URLs are live.
+- Google Play: https://play.google.com/store/apps/details?id=com.adgauge.admobdashboard
+- App Store: https://apps.apple.com/app/id6809818957
 
 ## FAQ
 

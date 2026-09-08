@@ -8,7 +8,7 @@ These Terms of Use (“Terms”) govern your use of AdGauge - AdMob Dashboard (t
 
 AdGauge - AdMob Dashboard is a personal mobile dashboard that helps AdMob publishers view estimated earnings and related performance metrics by connecting a Google account with AdMob readonly access.
 
-The app is coming soon to Google Play and the App Store. Availability, features, and platform support may change as the product ships and updates.
+The app is available on Google Play and the App Store. Availability, features, and platform support may change as the product updates.
 
 ## 2. Eligibility and accounts
 

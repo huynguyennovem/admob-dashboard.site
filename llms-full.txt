@@ -5,7 +5,8 @@
 AdGauge - AdMob Dashboard is a personal Flutter mobile app for AdMob publishers. After Google Sign-In with the AdMob readonly scope, it loads mediated revenue and performance metrics from the Google AdMob Reporting API and presents them in mobile dashboards.
 
 Marketing site: https://admob-dashboard.site/
-Status: Coming soon on Google Play and the App Store (Android and iOS).
+Status: Available on Google Play and the App Store (Android and iOS).
+Package: com.adgauge.admobdashboard
 Support email: admob.dashboard.app@gmail.com
 
 ## Value proposition
@@ -54,17 +55,22 @@ Google Sign-In connect / disconnect, pull-to-refresh, light/dark theme toggle, d
 
 ## Store CTAs
 
-Store badges are shown with a Coming soon label. Listing URLs are not live yet. Badge image assets live at:
+Live store listing URLs:
+
+- Google Play: https://play.google.com/store/apps/details?id=com.adgauge.admobdashboard
+- App Store: https://apps.apple.com/app/id6809818957
+
+Badge image assets:
 
 - /assets/images/GooglePlay_Badge.png
 - /assets/images/App_Store_Badge.png
 
-Screenshot placeholders (replace later):
+App Store marketing screenshots on the homepage:
 
-- /assets/images/screenshots/placeholder-1.svg
-- /assets/images/screenshots/placeholder-2.svg
-- /assets/images/screenshots/placeholder-3.svg
-- /assets/images/screenshots/placeholder-4.svg
+- /assets/images/screenshots/iphone65-screenshot-1.png — Estimated earnings
+- /assets/images/screenshots/iphone65-screenshot-2.png — Ads activity
+- /assets/images/screenshots/iphone65-screenshot-3.png — Your dashboard
+- /assets/images/screenshots/iphone65-screenshot-4.png — Per-app detail
 
 ## Privacy summary
 
@@ -79,7 +85,7 @@ Screenshot placeholders (replace later):
 - Personal / internal use license for your own AdMob accounts
 - Metrics accuracy depends on Google APIs and may differ from final payouts
 - Apple Standard EULA applies for App Store distribution
-- Coming soon availability disclaimer
+- Available on Google Play and the App Store
 
 ## FAQ summary
 

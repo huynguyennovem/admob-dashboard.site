@@ -47,8 +47,12 @@
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD",
-      "availability": "https://schema.org/ComingSoon"
+      "availability": "https://schema.org/InStock"
     },
+    "sameAs": [
+      "https://play.google.com/store/apps/details?id=com.adgauge.admobdashboard",
+      "https://apps.apple.com/app/id6809818957"
+    ],
     "featureList": [
       "Google Sign-In with AdMob readonly access",
       "Estimated earnings for today, yesterday, and calendar months",
@@ -98,15 +102,15 @@
             Connect Google, see estimated earnings, apps, and ad units — without opening the AdMob console.
           </p>
           <div class="hero-cta">
-            <p class="coming-soon" aria-live="polite">Coming soon</p>
             <div class="store-row">
-              <a href="#" class="store-badge link-android" aria-label="Get it on Google Play — coming soon"
-                onclick="return false;">
+              <a href="https://play.google.com/store/apps/details?id=com.adgauge.admobdashboard"
+                class="store-badge link-android" aria-label="Get it on Google Play" target="_blank"
+                rel="noopener noreferrer">
                 <img src="/assets/images/GooglePlay_Badge.png" alt="Get it on Google Play" width="162" height="48"
                   decoding="async">
               </a>
-              <a href="#" class="store-badge link-ios" aria-label="Download on the App Store — coming soon"
-                onclick="return false;">
+              <a href="https://apps.apple.com/app/id6809818957" class="store-badge link-ios"
+                aria-label="Download on the App Store" target="_blank" rel="noopener noreferrer">
                 <img src="/assets/images/App_Store_Badge.png" alt="Download on the App Store" width="144" height="48"
                   decoding="async">
               </a>
@@ -115,13 +119,14 @@
         </div>
 
         <div class="hero-visual" aria-hidden="true">
-          <div class="phone-stack">
-            <div class="phone-frame">
-              <img src="/assets/images/screenshots/placeholder-1.svg" alt="" width="390" height="844" decoding="async">
-            </div>
-            <div class="phone-frame">
-              <img src="/assets/images/screenshots/placeholder-2.svg" alt="" width="390" height="844" loading="lazy"
+          <div class="shot-stack">
+            <div class="shot-media">
+              <img src="/assets/images/screenshots/iphone65-screenshot-1.png" alt="" width="1284" height="2778"
                 decoding="async">
+            </div>
+            <div class="shot-media">
+              <img src="/assets/images/screenshots/iphone65-screenshot-2.png" alt="" width="1284" height="2778"
+                loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -132,28 +137,28 @@
       <div class="container">
         <div class="section-head reveal">
           <h2>See the dashboard at a glance</h2>
-          <p>Four captures of the main flows — earnings, activity, Your dashboard, and per-app detail. Real screenshots coming soon.</p>
+          <p>Four captures of the main flows — earnings, activity, Your dashboard, and per-app detail.</p>
         </div>
         <div class="shot-grid">
           <figure class="shot-card reveal">
-            <img src="/assets/images/screenshots/placeholder-1.svg" alt="Screenshot 1 placeholder" width="390"
-              height="844" loading="lazy" decoding="async">
-            <figcaption class="shot-label">Screenshot 1</figcaption>
+            <img src="/assets/images/screenshots/iphone65-screenshot-1.png" alt="Estimated earnings overview"
+              width="1284" height="2778" loading="lazy" decoding="async">
+            <figcaption class="shot-label">Estimated earnings</figcaption>
           </figure>
           <figure class="shot-card reveal">
-            <img src="/assets/images/screenshots/placeholder-2.svg" alt="Screenshot 2 placeholder" width="390"
-              height="844" loading="lazy" decoding="async">
-            <figcaption class="shot-label">Screenshot 2</figcaption>
+            <img src="/assets/images/screenshots/iphone65-screenshot-2.png" alt="Ads activity performance"
+              width="1284" height="2778" loading="lazy" decoding="async">
+            <figcaption class="shot-label">Ads activity</figcaption>
           </figure>
           <figure class="shot-card reveal">
-            <img src="/assets/images/screenshots/placeholder-3.svg" alt="Screenshot 3 placeholder" width="390"
-              height="844" loading="lazy" decoding="async">
-            <figcaption class="shot-label">Screenshot 3</figcaption>
+            <img src="/assets/images/screenshots/iphone65-screenshot-3.png" alt="Your dashboard with metrics"
+              width="1284" height="2778" loading="lazy" decoding="async">
+            <figcaption class="shot-label">Your dashboard</figcaption>
           </figure>
           <figure class="shot-card reveal">
-            <img src="/assets/images/screenshots/placeholder-4.svg" alt="Screenshot 4 placeholder" width="390"
-              height="844" loading="lazy" decoding="async">
-            <figcaption class="shot-label">Screenshot 4</figcaption>
+            <img src="/assets/images/screenshots/iphone65-screenshot-4.png" alt="Per-app format performance"
+              width="1284" height="2778" loading="lazy" decoding="async">
+            <figcaption class="shot-label">Per-app detail</figcaption>
           </figure>
         </div>
       </div>
@@ -222,7 +227,7 @@
             <img src="/assets/images/app-icon.png" alt="" width="36" height="36">
             AdGauge - AdMob Dashboard
           </a>
-          <p>A personal AdMob revenue dashboard for Android and iOS. Coming soon to the stores.</p>
+          <p>A personal AdMob revenue dashboard for Android and iOS. Available on Google Play and the App Store.</p>
         </div>
         <nav class="footer-links" aria-label="Footer">
           <a href="#features">Features</a>
@@ -234,12 +239,13 @@
       <div class="footer-bottom">
         <p>&copy; <span id="year"></span> AdGauge - AdMob Dashboard. All rights reserved.</p>
         <div class="store-row">
-          <span class="coming-soon">Coming soon</span>
-          <a href="#" class="store-badge" aria-label="Google Play — coming soon" onclick="return false;">
+          <a href="https://play.google.com/store/apps/details?id=com.adgauge.admobdashboard" class="store-badge"
+            aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/GooglePlay_Badge.png" alt="Get it on Google Play" width="122" height="36"
               loading="lazy">
           </a>
-          <a href="#" class="store-badge" aria-label="App Store — coming soon" onclick="return false;">
+          <a href="https://apps.apple.com/app/id6809818957" class="store-badge" aria-label="Download on the App Store"
+            target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/App_Store_Badge.png" alt="Download on the App Store" width="108" height="36"
               loading="lazy">
           </a>
