@@ -67,10 +67,11 @@ Badge image assets:
 
 App Store marketing screenshots on the homepage:
 
-- /assets/images/screenshots/iphone65-screenshot-1.png — Estimated earnings
-- /assets/images/screenshots/iphone65-screenshot-2.png — Ads activity
-- /assets/images/screenshots/iphone65-screenshot-3.png — Your dashboard
-- /assets/images/screenshots/iphone65-screenshot-4.png — Per-app detail
+- /assets/images/screenshots/iphone65-screenshot-1.png — Today’s earnings
+- /assets/images/screenshots/iphone65-screenshot-2.png — Revenue trends
+- /assets/images/screenshots/iphone65-screenshot-3.png — Apps to watch
+- /assets/images/screenshots/iphone65-screenshot-4.png — App ranking
+- /assets/images/screenshots/iphone65-screenshot-5.png — Per-app detail
 
 ## Privacy summary
 

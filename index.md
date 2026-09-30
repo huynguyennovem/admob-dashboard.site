@@ -20,7 +20,7 @@ This is the marketing site for AdGauge - AdMob Dashboard at [https://admob-dashb
 - [Home (markdown)](https://admob-dashboard.site/index.md) — This page
 - [Features](https://admob-dashboard.site/#features) — Earnings, ads activity, Your dashboard, per-app drill-down
 - [How it works](https://admob-dashboard.site/#how-it-works) — Connect → Sync → Track
-- [Screenshots](https://admob-dashboard.site/#screenshots) — Earnings, activity, Your dashboard, and per-app detail
+- [Screenshots](https://admob-dashboard.site/#screenshots) — Today’s earnings, revenue trends, apps to watch, app ranking, and per-app detail
 - [Support](https://admob-dashboard.site/support/) — FAQ and contact
 - [Privacy Policy](https://admob-dashboard.site/privacy/) — Google Sign-In and AdMob API data handling
 - [Terms of Use](https://admob-dashboard.site/terms/) — License, disclaimers, Apple Standard EULA note
