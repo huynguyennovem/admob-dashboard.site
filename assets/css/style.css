@@ -575,6 +575,148 @@ ul {
   height: 36px;
 }
 
+/* Download section */
+.download {
+  padding-top: 1rem;
+}
+
+.download-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 2.25rem 2.5rem;
+  border-radius: calc(var(--radius) * 1.4);
+  border: 1px solid var(--border-strong);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(103, 232, 210, 0.14), transparent 55%),
+    radial-gradient(circle at 100% 100%, rgba(255, 198, 109, 0.1), transparent 50%),
+    var(--surface);
+}
+
+.download-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(255, 107, 90, 0.28);
+}
+
+.download-copy h2 {
+  font-size: clamp(1.5rem, 2.8vw, 2rem);
+  font-weight: 760;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+
+.download-copy p {
+  color: var(--text-muted);
+  max-width: 40ch;
+}
+
+/* Floating download banner */
+.download-banner {
+  position: fixed;
+  left: 50%;
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  z-index: 40;
+  width: min(640px, calc(100% - 2rem));
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  grid-template-areas: 'icon copy badges close';
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.7rem 0.75rem 0.7rem 0.9rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: rgba(12, 22, 36, 0.88);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, 140%);
+  transition:
+    opacity 0.4s var(--ease),
+    transform 0.5s var(--ease),
+    visibility 0s linear 0.5s;
+}
+
+.download-banner.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+  transition-delay: 0s;
+}
+
+.download-banner-icon {
+  grid-area: icon;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+}
+
+.download-banner-copy {
+  grid-area: copy;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 1.25;
+}
+
+.download-banner-copy strong {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.download-banner-copy span {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.download-banner .store-row {
+  grid-area: badges;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+
+.download-banner .store-badge {
+  flex: 0 0 auto;
+}
+
+.download-banner .store-badge img {
+  height: 40px;
+}
+
+.download-banner-close {
+  grid-area: close;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.download-banner-close:hover,
+.download-banner-close:focus-visible {
+  color: var(--text);
+  border-color: var(--border-strong);
+  outline: none;
+}
+
+.download-banner-close:focus-visible,
+.download-banner .store-badge:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
 /* Policy / support pages */
 .policy-page {
   padding: calc(var(--header-h) + 3rem) 0 5rem;
@@ -767,6 +909,14 @@ ul {
     grid-template-columns: 1fr;
   }
 
+  .download-card {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1.25rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+
   .support-grid {
     grid-template-columns: 1fr;
   }
@@ -870,6 +1020,21 @@ ul {
 
   .footer-bottom .store-row {
     width: 100%;
+  }
+
+  .download-banner {
+    width: calc(100% - 1.5rem);
+    bottom: calc(0.75rem + env(safe-area-inset-bottom));
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      'icon copy close'
+      'badges badges badges';
+    gap: 0.6rem 0.75rem;
+    padding: 0.75rem;
+  }
+
+  .download-banner .store-row {
+    justify-content: center;
   }
 
   .policy-page {
