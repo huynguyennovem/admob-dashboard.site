@@ -571,13 +571,10 @@ ul {
   font-size: 0.875rem;
 }
 
-.footer-bottom .store-badge img {
-  height: 36px;
-}
-
 /* Download section */
 .download {
   padding-top: 1rem;
+  padding-bottom: 3.5rem;
 }
 
 .download-card {
@@ -1016,10 +1013,6 @@ ul {
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .footer-bottom .store-row {
-    width: 100%;
   }
 
   .download-banner {
