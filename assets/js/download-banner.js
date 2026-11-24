@@ -7,6 +7,9 @@
 
   if (!banner || !heroCta || !downloadSection || !closeButton || !('IntersectionObserver' in window)) return;
 
+  // Stylesheet missing or stale: keep the banner hidden instead of rendering it unstyled in the page flow.
+  if (getComputedStyle(banner).position !== 'fixed') return;
+
   const readDismissed = () => {
     try {
       return sessionStorage.getItem(STORAGE_KEY) === '1';
